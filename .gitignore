@@ -211,3 +211,6 @@ uploads/
 *.jpeg
 *.jpg
 .DS_Store
+
+# Personal notes
+notes.txt 
