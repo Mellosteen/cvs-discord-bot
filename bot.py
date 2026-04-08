@@ -20,8 +20,8 @@ Notes: API Endpoint of this Miraheze wiki is: https://cvscraft.miraheze.org/w/ap
        API Helper page, which is found under the same link, but to view it in JSON format
        enter: https://cvscraft.miraheze.org/w/api.php?action=query&meta=siteinfo&format=json
 
-       The Bot will use Melloui's account on Miraheze to upload the images. A Bot Password has
-       additionally been created and saved by the human user. All sensitive information
+       The Bot will use User's account on Miraheze to upload the images. A Bot Password has to
+       additionally be created and saved by the human user. All sensitive information
        has been saved and protected locally by the user!
 
        Login Token can be obtained with the following link:
