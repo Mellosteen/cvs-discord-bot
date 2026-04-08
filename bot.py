@@ -14,23 +14,6 @@ load_dotenv()
 
 UPLOAD_TIMEOUT = 60 # seconds
 
-"""
-Notes: API Endpoint of this Miraheze wiki is: https://cvscraft.miraheze.org/w/api.php
-       which combines both the server + scriptpath which can be found on the MediaWiki 
-       API Helper page, which is found under the same link, but to view it in JSON format
-       enter: https://cvscraft.miraheze.org/w/api.php?action=query&meta=siteinfo&format=json
-
-       The Bot will use User's account on Miraheze to upload the images. A Bot Password has to
-       additionally be created and saved by the human user. All sensitive information
-       has been saved and protected locally by the user!
-
-       Login Token can be obtained with the following link:
-       https://cvscraft.miraheze.org/w/api.php?action=query&meta=tokens&type=login&format=json
-
-       Wiki client functions have been implemented and imported from a separate file wiki_client.py.
-       See wiki_client.py for details.
-"""
-
 # This lets us define the prefix for getting a command to run. The Intents part means we want the bot to
 # use all features of discord!
 bot = commands.Bot(command_prefix="!", intents=discord.Intents.all())
