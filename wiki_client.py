@@ -168,7 +168,7 @@ def upload_file(s: requests.sessions.Session, csrf_token: str, save_path: Path, 
 
 if __name__ == "__main__":
     token, s = get_login_token()
-    print("Got login token ✅")
+    print("Got login token")
     print("Token length:", len(token))
     print("Cookies stored:", bool(s.cookies))
 
